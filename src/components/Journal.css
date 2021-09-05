@@ -1,0 +1,134 @@
+.Journal {
+  width: 90%;
+  margin: 0 auto;
+}
+.My-Journal {
+}
+body {
+  background-color: #417898;
+}
+.Form-Journal {
+  background-color: #60bdff;
+  padding: 1rem;
+  border-top-left-radius: 20px;
+  font-weight: 600;
+}
+.Form-Task {
+  background-color: #60bdff;
+  padding: 1rem;
+  border-top-right-radius: 20px;
+  font-weight: 600;
+}
+.Form-date {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Form-date input,
+label {
+  font-size: 1.2rem;
+}
+.p-r {
+  padding-right: 0.5em;
+}
+.p-b {
+  padding-bottom: 0.3em;
+}
+.Form-thoughts {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  resize: none;
+  font-size: 1.2rem;
+}
+.Form-btn {
+  text-align: center;
+}
+button {
+  margin: 0 1em;
+  font-size: 1.1rem;
+  padding: 0.2em;
+}
+.Thoughts {
+  margin-top: 1em;
+  color: #000;
+}
+.My-thoughts .thought:nth-child(odd) {
+  background-color: #7ecaff;
+}
+.thought {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3em 0;
+  padding: 0.5em;
+  background-color: #91cef9;
+  font-size: 1.3rem;
+}
+.thought div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Journal-side,
+.Task-side {
+  margin-bottom: 1em;
+}
+h1 {
+  text-align: center;
+  margin: 1em;
+  color: whitesmoke;
+}
+h3 {
+  text-align: center;
+  background-color: #60bdff;
+  padding: 0.5em 0;
+  margin: 0;
+}
+.delete-btn {
+  text-align: center;
+  background-color: #60bdff;
+  padding: 0.5em 0;
+}
+.Journal-Footer {
+  border-bottom-left-radius: 20px;
+}
+.Task-Footer {
+  border-bottom-right-radius: 20px;
+}
+
+@media (min-width: 600px) {
+  .My-Journal {
+    display: flex;
+    flex-direction: row;
+  }
+  .Journal-side {
+    width: 100%;
+    margin-right: 0.5em;
+  }
+  .Task-side {
+    width: 100%;
+    margin-left: 0.5em;
+  }
+}
+.deleteIcon {
+  padding: 0.5em;
+  margin: 0.4em;
+}
+/* .btn-danger {
+  background-color: #ffc0cb;
+  border-color: #bb8f96;
+} */
+
+.form-control {
+  width: unset;
+}
+.done {
+  text-decoration: line-through;
+}
